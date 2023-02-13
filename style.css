@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #fec685;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label {
+    
+}
+
+header {
+    padding: 40px 20px;
+}
+
+h1 {
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.left-wrap {
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+button {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+}
+
+.buttons {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.wrapper {
+    background-color: #ffffff;
+    padding:20px 10px;
+    border-radius: 8px;
+    opacity: 70%;
+    
+    
+}
+
+
+.board-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+
+}
+
+.board {
+    border: solid 0.1px black;
+    width: 500px;
+    height: 500px;
+    display: grid;
+
+}
+
+.grid-sizer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.label-holder {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}

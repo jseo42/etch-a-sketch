@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left-wrap">
+        <div class="title">
+            <h1>Etch A Sketch</h1>
+        </div>
+        <div class="buttons">
+            <button onclick="changeColor('black')">Black</button>
+            <button onclick="changeColor('white')">Eraser</button>
+            <button onclick="changeColor('random')">Random</button>
+            <button onclick="resetCanvas()">Reset Canvas</button>
+        </div>
+        <div class="grid-sizer">
+            <label>Grid Size</label>
+            <input type="text" placeholder="[2:100]" value="16" class="label-holder" onchange="changeSize(this.value)" />
+            <button>Set Size</button>
+        </div>
+    </div>
+
+
+    <div class="board-wrap">
+        <div class="board">
+          
+        </div>
+    </div>
+
+    
+   
+    
+        
+        
+    
+   
+    <script src="script.js" defer></script>
+</body>
+</html>
